@@ -1,0 +1,8 @@
+name: my-first-drupal9-app
+recipe: drupal9
+config:
+  php: '8.1'
+  webroot: web
+services:
+  appserver:
+    type: php:8.1
